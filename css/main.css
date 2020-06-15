@@ -2,17 +2,17 @@
 /* red #d3325f */
 
 .info {
-    background: #c9c1ac;
+    background: #7e7c76;
 }
 
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Merriweather', serif;
     color: #c9c1ac;
     background: url(../img/body-bcg.jpeg)center/cover fixed no-repeat;
 }
 
 .primary-color {
-    color: #d3325f
+    color: #2bc238
 }
 
 .info h2 {
@@ -69,7 +69,7 @@ body {
 }
 
 .main-btn {
-    color: #d3325f;
+    color: #16be24;
     font-size: 2rem;
     border: 2px solid #d3325f;
     transition: all 1s ease-in-out;
@@ -344,12 +344,12 @@ body {
 }
 
 #contact .card-header {
-    color: #d3325f;
+    color: #118a36;
 }
 
 #contact .input-group-text {
-    background: #d3325f;
-    border-color: #d3325f;
+    background: #179112;
+    border-color: #1ea784;
     color: #242424;
 }
 
@@ -362,8 +362,8 @@ body {
 }
 
 .contact-btn {
-    color: #d3325f;
-    border-color: #d3325f;
+    color: #32d368;
+    border-color: #16880c;
     background: transparent;
     transition: all 2s ease-in-out;
 }
