@@ -2,17 +2,25 @@
 /* red #d3325f */
 
 .info {
-    background: #7e7c76;
+    background: #bd6800;
 }
 
 body {
     font-family: 'Merriweather', serif;
-    color: #c9c1ac;
+    color: #c48e06;
     background: url(../img/body-bcg.jpeg)center/cover fixed no-repeat;
 }
 
 .primary-color {
-    color: #2bc238
+    color: #06b415
+}
+
+.secondary-color {
+    color: #c28410
+}
+
+.header-color {
+    color: #d7dfd7
 }
 
 .info h2 {
@@ -45,8 +53,8 @@ body {
 }
 
 .banner h1 {
-    border-top: 6px dotted #c9c1ac;
-    border-bottom: 6px dotted #c9c1ac;
+    border-top: 6px groove #c9c1ac;
+    border-bottom: 6px groove #c9c1ac;
     animation: fromLeft;
     animation-duration: 4s;
     animation-delay: 1s;
@@ -71,7 +79,7 @@ body {
 .main-btn {
     color: #16be24;
     font-size: 2rem;
-    border: 2px solid #d3325f;
+    border: 2px solid #c5671b;
     transition: all 1s ease-in-out;
 }
 
@@ -161,25 +169,25 @@ body {
 }
 
 .nav-link:hover {
-    color: #d3325f;
+    color: #2e970e;
 }
 
 .nav-btn {
     background: transparent;
-    color: #d3325f;
-    border: 2px solid #d3325f;
+    color: #d16f1e;
+    border: 2px solid #55a30c;
     font-size: 23px; 
     transition: all 2s ease;
 }
 
 .nav-btn:hover {
-    color: #242424;
-    border: 2px solid #242424;
+    color: #209e0f;
+    border: 2px solid #a76a0e;
     transform: rotate(10deg);
 }
 
 .toggler-btn {
-    border: 2px solid #d3325f;
+    border: 2px solid #4dd332;
     padding: 5px;
     transition: all 2s ease;
 }
@@ -188,7 +196,7 @@ body {
     width: 30px;
     height: 3px;
     margin: 5px;
-    background: #d3325f;
+    background: #0b9729;
     transition: all 0.5s ease;
 }
 
@@ -228,10 +236,10 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color: #d3325f;
+    color: #09aa3a;
     font-size: 2rem;
-    border-top: 3px solid #d3325f;
-    border-bottom: 3px solid #d3325f;
+    border-top: 3px solid #b36b0e;
+    border-bottom: 3px solid #b36307;
     transition:  all 2s ease;
     opacity: 0;
 }
@@ -248,7 +256,7 @@ body {
 }
 
 .item-container:hover {
-    outline: 10px solid #d3325f;
+    outline: 10px solid #ac5c11;
     outline-offset: 0.8rem;
 }
 
@@ -260,7 +268,7 @@ body {
 }
 
 .special {
-    border: 3px solid #d3325f;
+    border: 3px solid #04aa2d;
     position: relative;
 }
 
@@ -268,7 +276,7 @@ body {
     position: absolute;
     top: 0;
     right: 10%;
-    background: #d3325f;
+    background: #12910e;
     padding: 0 0.4rem;
 }
 
